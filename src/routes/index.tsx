@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ChevronRight, Waves, Wine, Wifi, Car, Coffee, Dumbbell, Concierge } from "lucide-react";
+import { ChevronRight, Waves, Wine, Wifi, Car, Coffee, Headset } from "lucide-react";
 import { featuredImages, poolImages, terraceImages } from "../lib/hotel-images";
 
 export const Route = createFileRoute("/")({
