@@ -45,7 +45,7 @@ function Index() {
       <section className="relative min-h-[85vh] overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src={featuredImages.hero.url}
+            src={featuredImages.hero}
             alt="Wintana Hotel rooftop pool with city views"
             className="h-full w-full object-cover"
           />
@@ -110,18 +110,18 @@ function Index() {
 
             <div className="grid gap-4">
               <img
-                src={featuredImages.pool.url}
+                src={featuredImages.pool}
                 alt="Wintana Hotel rooftop pool"
                 className="aspect-[4/3] rounded-2xl object-cover"
               />
               <div className="grid grid-cols-2 gap-4">
                 <img
-                  src={featuredImages.terrace.url}
+                  src={featuredImages.terrace}
                   alt="Wintana Hotel terrace lounge"
                   className="aspect-square rounded-2xl object-cover"
                 />
                 <img
-                  src={featuredImages.lounge.url}
+                  src={featuredImages.lounge}
                   alt="Wintana Hotel interior lounge"
                   className="aspect-square rounded-2xl object-cover"
                 />
@@ -180,11 +180,11 @@ function Index() {
           <div className="columns-1 gap-4 sm:columns-2 lg:columns-3">
             {previewImages.map((image) => (
               <div
-                key={image.asset_id}
+                key={image}
                 className="mb-4 break-inside-avoid overflow-hidden rounded-2xl bg-muted"
               >
                 <img
-                  src={image.url}
+                  src={image}
                   alt="Wintana Hotel"
                   loading="lazy"
                   className="w-full object-cover transition-transform duration-700 hover:scale-105"
@@ -199,7 +199,7 @@ function Index() {
       <section className="relative overflow-hidden py-24 md:py-32">
         <div className="absolute inset-0">
           <img
-            src={terraceImages[0].url}
+            src={terraceImages[0]}
             alt="Wintana Hotel terrace with city views"
             className="h-full w-full object-cover"
           />

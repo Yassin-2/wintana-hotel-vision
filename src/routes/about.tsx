@@ -25,7 +25,7 @@ function About() {
       <section className="relative overflow-hidden py-24 md:py-32">
         <div className="absolute inset-0">
           <img
-            src={featuredImages.terrace.url}
+            src={featuredImages.terrace}
             alt="Wintana Hotel terrace with city views"
             className="h-full w-full object-cover"
           />
@@ -63,18 +63,18 @@ function About() {
             </div>
             <div className="grid gap-4">
               <img
-                src={poolImages[0].url}
+                src={poolImages[0]}
                 alt="Wintana Hotel rooftop pool"
                 className="aspect-[4/3] rounded-2xl object-cover"
               />
               <div className="grid grid-cols-2 gap-4">
                 <img
-                  src={terraceImages[0].url}
+                  src={terraceImages[0]}
                   alt="Terrace seating"
                   className="aspect-square rounded-2xl object-cover"
                 />
                 <img
-                  src={poolImages[5].url}
+                  src={poolImages[5]}
                   alt="Poolside lounge"
                   className="aspect-square rounded-2xl object-cover"
                 />

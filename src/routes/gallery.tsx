@@ -63,11 +63,11 @@ function Gallery() {
           <div className="columns-1 gap-4 sm:columns-2 lg:columns-3 xl:columns-4">
             {allImages.map((image, index) => (
               <div
-                key={image.asset_id}
+                key={image}
                 className="mb-4 break-inside-avoid overflow-hidden rounded-2xl bg-muted"
               >
                 <img
-                  src={image.url}
+                  src={image}
                   alt={labels[index] || "Wintana Hotel"}
                   loading="lazy"
                   className="w-full object-cover transition-transform duration-700 hover:scale-105"
