@@ -24,7 +24,7 @@ const amenities = [
   { icon: Coffee, label: "Coffee & Dining", description: "Ethiopian coffee and curated local cuisine." },
   { icon: Wifi, label: "Free Wi-Fi", description: "Stay connected throughout the hotel." },
   { icon: Car, label: "Airport Transfer", description: "Easy arrivals and departures arranged." },
-  { icon: Concierge, label: "24h Concierge", description: "Our team is here around the clock." },
+  { icon: Headset, label: "24h Concierge", description: "Our team is here around the clock." },
 ];
 
 function SectionHeading({ eyebrow, title, children }: { eyebrow: string; title: string; children?: React.ReactNode }) {
